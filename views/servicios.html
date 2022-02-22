@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MBT - Servicios</title>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="..//css/normalize.css">
+	<link rel="stylesheet" href="../css/estilo.css">		
+</head>
+<body class="servicios__body">
+	<header class="header__background">
+		<a href="../index.html" class="nav__menu__a"><img src="../assets/img/mbtlogo.png" alt="logombt" class="nav__img__logo"></a>
+		<nav class="nav__menu">	
+			<ul class="nav__menu__list">
+				<li class="nav__menu__list__pages"><a href="../index.html">Inicio</a></li>
+				<li class="nav__menu__list__pages"><a href="../views/nosotros.html">Nosotros</a></li>
+				<li class="nav__menu__list__pages"><a href="../views/servicios.html">Servicios</a></li>
+				<li class="nav__menu__list__pages"><a href="../views/aeronaves.html">Aeronaves</a></li>
+			        <ul class="nav__menu__list__pages--hide">
+			        	<li>Robinson R-44</li>
+			        	<li>Tecnam P-2002</li> 	
+			        	<li>Piper PA-31 Navajo</li>
+			        </ul>	
+				<li class="nav__menu__list__pages"><a href="../views/galeria.html">Galeria</a></li>
+				<li class="nav__menu__list__pages"><a href="../views/instruccion.html">Instrucción</a></li>
+				<li class="nav__menu__list__pages"><a href="../views/contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<a href="#"><img src="../assets/img/userlogin.png" alt="userimg" class="header__user__img"></a>
+	</header>
+	<main class="heli__nav">
+		<article class="servicios__article">
+			<a name="helicoptero"></a>
+			<h1 class="article__title">Traslados en helicóptero</h1>
+			<p class="servicios__p">Ofrecemos un servicio único de traslado de pasajeros en helicóptero de manera local, también de manera recreativa o Instrucción. <br>
+			Contamos con un helicóptero Robinson R-44 con un alto nivel de seguridad y técnología para realizar navegaciones de la forma más segura y cómoda. <br>
+			Puedes cotizar el costo aproximado con el formulario debajo:</p>
+		</article>
+		<div class="servicios__coti__div">
+			<form action="" class="servicios__coti__form">
+				<input type="text" name="nombre" placeholder="Nombre" class="servicios__coti__nombre" required>
+				<input type="text" name="apellido" placeholder="Apellido" class="servicios__coti__apellido" required>
+				<select name="origen" id="" class="servicios__coti__origen" required=>
+					<option value="0">Origen</option>
+					<option value="1">San Fernando</option>
+					<option value="2">Aeroparque</option>
+					<option value="3">Aeroclub Río de la Plata</option>
+				</select>
+				<select name="destino" id="" class="servicios__coti__destino" required>
+					<option value="0">destino</option>
+					<option value="1">San Fernando</option>
+					<option value="2">Aeroparque</option>
+					<option value="3">Aeroclub Río de la Plata</option>
+				</select>
+				<input type="date" name="fecha" placeholder="fecha" class="servicios__coti__fecha" required>
+				<input type="text" name="telefono" placeholder="telefono" class="servicios__coti__telefono" required>
+				<input type="submit" value="Cotizar" class="btn">
+				<div class="servicios__coti__det">
+				<h4>Detalle de la tarifa</h4>
+				</div>
+			</form>
+		</div>
+	</main>
+	<section class="bimo__section">
+		<hr class="section__line">
+		<article class="servicios__article">
+			<a name="bimotor"></a>
+			<h2 class="article__title">Traslados en avión bimotor</h2>
+			<p class="servicios__p">Ofrecemos un servicio único de traslado de pasajeros en avión Bimotor de manera local, Internacional y recreativa.<br>
+			Contamos con un avión bimotor de la reconocida marca Piper, modelo PA-31 Navajo con una amplia autonomía para poder realizar navegaciones a distancias considerables de la forma más segura y cómoda.<br>
+			Puedes cotizar el costo aproximado con el formulario debajo:</p>
+		</article class="servicios__article">
+		<div class="servicios__coti__div">
+			<form action="" class="servicios__coti__form">
+				<input type="text" name="nombre" placeholder="Nombre" class="servicios__coti__nombre" required>
+				<input type="text" name="apellido" placeholder="Apellido" class="servicios__coti__apellido" required>
+				<select name="origen" id="" class="servicios__coti__origen" required>
+					<option value="0">Origen</option>
+					<optgroup label="Argentina">
+						<option value="1">San Fernando</option>
+						<option value="2">Aeroparque</option>
+						<option value="3">Aeroclub Río de la Plata</option>
+						<option value="4">Córdoba</option>
+						<option value="5">Mendoza</option>
+					</optgroup>
+					<optgroup label="Uruguay">
+						<option value="6">Montevideo</option>
+						<option value="7">Punta del Este</option>
+					</optgroup>
+				</select>
+				<select name="destino" id="" class="servicios__coti__destino" required>
+					<option value="0">destino</option>
+					<optgroup label="Argentina">
+						<option value="1">San Fernando</option>
+						<option value="2">Aeroparque</option>
+						<option value="3">Aeroclub Río de la Plata</option>
+						<option value="4">Córdoba</option>
+						<option value="5">Mendoza</option>
+					</optgroup>
+					<optgroup label="Uruguay">
+						<option value="6">Montevideo</option>
+						<option value="7">Punta del Este</option>
+					</optgroup>
+				</select>
+				<input type="date" name="fecha" placeholder="fecha" class="servicios__coti__fecha" required>
+				<input type="text" name="telefono" placeholder="telefono" class="servicios__coti__telefono" required>
+				<input type="submit" value="Cotizar" class="btn">
+				<div class="servicios__coti__det">
+				<h4>Detalle de la tarifa</h4>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section class="instru__section">
+		<hr class="section__line">
+		<article class="servicios__article">
+			<a name="instruccion"></a>
+			<h2 class="article__title">Instrucción y entrenamiento de pilotos</h2>
+			<p class="servicios__p">Ofrecemos un servicio de instrucción personalizada para pilotos de avión y/o helicóptero. Poseemos una aeronave monomotor de la marca Tecnam, modelo P2002 y un helicóptero Robinson R44.<br>
+			Puedes consultar y comunicarte con nosotros:</p>
+		</article>
+		<div class="servicios__coti__div">
+			<form action="" class="servicios__contact__form">
+				<input type="text" name="nombre" placeholder="Nombre y Apellido" class="servicios__contact__nombre" required>
+				<input type="email" name="fecha" placeholder="E-Mail" class="servicios__contact__mail" required>
+				<input type="text" name="telefono" placeholder="Tel. de contacto" class="servicios__contact__telefono" required>
+				<textarea placeholder="mensaje" class="servicios__coti__input servicios__contact__msj" required></textarea>
+				<input type="submit" value="Contactar" class="btn">
+			</form>
+		</div>
+	</section>			
+	<footer class="footer">
+		<hr class="footer__line">
+		<div class="footer__div">
+			<ul class="footer__ul">
+				<li class="footer__ul__li"><a href="index.html" class="footer__text">Inicio</a></li>
+				<li class="footer__ul__li"><a href="https://www.facebook.com/MBT-Aeronautics-295474168035404/" target="_blank" class="footer__text">Facebook</a></li>
+				<li class="footer__ul__li"><a href="https://www.instagram.com/mbt.aeronautics/" target="_blank" class="footer__text">Instagram</a></li>
+				<li class="footer__ul__li"><a href="views/contacto.html" class="footer__text">Contacto</a></li>
+			</ul>
+			<p class="copyright">Todos los derechos reservados a Franco Córdoba</p>
+		</div>
+	</footer>
+</body>
+</html>
