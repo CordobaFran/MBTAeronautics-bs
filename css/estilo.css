@@ -121,3 +121,11 @@ p.copyright{
 	width: 200px;
 	object-fit: cover;
 }
+
+.servicios__contact__msj{
+	height: 200px;
+}
+
+.detalle__tarifa{
+	height: 200px;
+}
