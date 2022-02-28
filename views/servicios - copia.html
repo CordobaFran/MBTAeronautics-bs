@@ -1,0 +1,157 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>MBT - Servicios</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand col-4 col-lg-2 col-xl-2" href="#"><img src="../assets/img/mbtlogo.png" alt="logombt" class="img-fluid nav__img__logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-center align-self-lg-end col-8" id="navbarNavDropdown">
+				<ul class="navbar-nav nav-tabs">
+					<li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+					<li class="nav-item"><a class="nav-link active" href="servicios.html">Servicios</a></li>
+					<li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+				          Aeronaves
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				          <a class="dropdown-item" href="aeronaves.html">Robinson R-44</a>
+				          <a class="dropdown-item" href="aeronaves.html">Tecnam P-2002</a>
+				          <a class="dropdown-item" href="aeronaves.html">Piper PA-31 Navajo</a>
+				        </div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+					<li class="nav-item"><a class="nav-link" href="instruccion.html">Instrucción</a></li>
+					<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>    
+				</ul>
+			</div>
+			<div class="col-4 col-lg-1 align-self-center justify-content-xl-end">
+				<a href="#"><img src="../assets/img/userlogin.png" alt="userimg" class="img-fluid header__user__img"></a>
+			</div>		
+	</nav>
+	<main class="heli__nav">
+		<article class="servicios__article">
+			<a name="helicoptero"></a>
+			<h1 class="article__title">Traslados en helicóptero</h1>
+			<p class="servicios__p">Ofrecemos un servicio único de traslado de pasajeros en helicóptero de manera local, también de manera recreativa o Instrucción. <br>
+			Contamos con un helicóptero Robinson R-44 con un alto nivel de seguridad y técnología para realizar navegaciones de la forma más segura y cómoda. <br>
+			Puedes cotizar el costo aproximado con el formulario debajo:</p>
+		</article>
+		<div class="servicios__coti__div">
+			<form action="" class="servicios__coti__form">
+				<input type="text" name="nombre" placeholder="Nombre" class="servicios__coti__nombre" required>
+				<input type="text" name="apellido" placeholder="Apellido" class="servicios__coti__apellido" required>
+				<select name="origen" id="" class="servicios__coti__origen" required=>
+					<option value="0">Origen</option>
+					<option value="1">San Fernando</option>
+					<option value="2">Aeroparque</option>
+					<option value="3">Aeroclub Río de la Plata</option>
+				</select>
+				<select name="destino" id="" class="servicios__coti__destino" required>
+					<option value="0">destino</option>
+					<option value="1">San Fernando</option>
+					<option value="2">Aeroparque</option>
+					<option value="3">Aeroclub Río de la Plata</option>
+				</select>
+				<input type="date" name="fecha" placeholder="fecha" class="servicios__coti__fecha" required>
+				<input type="text" name="telefono" placeholder="telefono" class="servicios__coti__telefono" required>
+				<input type="submit" value="Cotizar" class="btn">
+				<div class="servicios__coti__det">
+				<h4>Detalle de la tarifa</h4>
+				</div>
+			</form>
+		</div>
+	</main>
+	<section class="bimo__section">
+		<hr class="section__line">
+		<article class="servicios__article">
+			<a name="bimotor"></a>
+			<h2 class="article__title">Traslados en avión bimotor</h2>
+			<p class="servicios__p">Ofrecemos un servicio único de traslado de pasajeros en avión Bimotor de manera local, Internacional y recreativa.<br>
+			Contamos con un avión bimotor de la reconocida marca Piper, modelo PA-31 Navajo con una amplia autonomía para poder realizar navegaciones a distancias considerables de la forma más segura y cómoda.<br>
+			Puedes cotizar el costo aproximado con el formulario debajo:</p>
+		</article class="servicios__article">
+		<div class="servicios__coti__div">
+			<form action="" class="servicios__coti__form">
+				<input type="text" name="nombre" placeholder="Nombre" class="servicios__coti__nombre" required>
+				<input type="text" name="apellido" placeholder="Apellido" class="servicios__coti__apellido" required>
+				<select name="origen" id="" class="servicios__coti__origen" required>
+					<option value="0">Origen</option>
+					<optgroup label="Argentina">
+						<option value="1">San Fernando</option>
+						<option value="2">Aeroparque</option>
+						<option value="3">Aeroclub Río de la Plata</option>
+						<option value="4">Córdoba</option>
+						<option value="5">Mendoza</option>
+					</optgroup>
+					<optgroup label="Uruguay">
+						<option value="6">Montevideo</option>
+						<option value="7">Punta del Este</option>
+					</optgroup>
+				</select>
+				<select name="destino" id="" class="servicios__coti__destino" required>
+					<option value="0">destino</option>
+					<optgroup label="Argentina">
+						<option value="1">San Fernando</option>
+						<option value="2">Aeroparque</option>
+						<option value="3">Aeroclub Río de la Plata</option>
+						<option value="4">Córdoba</option>
+						<option value="5">Mendoza</option>
+					</optgroup>
+					<optgroup label="Uruguay">
+						<option value="6">Montevideo</option>
+						<option value="7">Punta del Este</option>
+					</optgroup>
+				</select>
+				<input type="date" name="fecha" placeholder="fecha" class="servicios__coti__fecha" required>
+				<input type="text" name="telefono" placeholder="telefono" class="servicios__coti__telefono" required>
+				<input type="submit" value="Cotizar" class="btn">
+				<div class="servicios__coti__det">
+				<h4>Detalle de la tarifa</h4>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section class="instru__section">
+		<hr class="section__line">
+		<article class="servicios__article">
+			<a name="instruccion"></a>
+			<h2 class="article__title">Instrucción y entrenamiento de pilotos</h2>
+			<p class="servicios__p">Ofrecemos un servicio de instrucción personalizada para pilotos de avión y/o helicóptero. Poseemos una aeronave monomotor de la marca Tecnam, modelo P2002 y un helicóptero Robinson R44.<br>
+			Puedes consultar y comunicarte con nosotros:</p>
+		</article>
+		<div class="servicios__coti__div">
+			<form action="" class="servicios__contact__form">
+				<input type="text" name="nombre" placeholder="Nombre y Apellido" class="servicios__contact__nombre" required>
+				<input type="email" name="fecha" placeholder="E-Mail" class="servicios__contact__mail" required>
+				<input type="text" name="telefono" placeholder="Tel. de contacto" class="servicios__contact__telefono" required>
+				<textarea placeholder="mensaje" class="servicios__coti__input servicios__contact__msj" required></textarea>
+				<input type="submit" value="Contactar" class="btn">
+			</form>
+		</div>
+	</section>			
+	<footer class="row d-flex justify-content-center">
+		<div class="col-12 col-lg-6 d-flex flex-column text-center">
+			<hr class="footer__line my-5">
+			<div class="footer__div">
+				<ul class="footer__ul list-unstyled d-flex flex-column flex-lg-row justify-content-around">
+					<li class="footer__ul__li"><a href="index.html" class="footer__text">Inicio</a></li>
+					<li class="footer__ul__li"><a href="https://www.facebook.com/MBT-Aeronautics-295474168035404/" target="_blank" class="footer__text">Facebook</a></li>
+					<li class="footer__ul__li"><a href="https://www.instagram.com/mbt.aeronautics/" target="_blank" class="footer__text">Instagram</a></li>
+					<li class="footer__ul__li"><a href="views/contacto.html" class="footer__text">Contacto</a></li>
+				</ul>
+				<p class="copyright">Todos los derechos reservados a Franco Córdoba</p>
+			</div>
+		</div>
+	</footer>		
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
