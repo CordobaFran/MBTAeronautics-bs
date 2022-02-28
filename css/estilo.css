@@ -113,3 +113,11 @@ p{
 p.copyright{
 	font-size: 1rem;
 }
+
+/*NOSOTROS PAGE*/
+
+.staff__img{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
