@@ -129,3 +129,9 @@ p.copyright{
 .detalle__tarifa{
 	height: 200px;
 }
+
+.img__galery img{
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
