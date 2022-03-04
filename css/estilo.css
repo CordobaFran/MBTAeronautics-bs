@@ -49,7 +49,7 @@ nav{
 
 /*INDEX CAROUSEL SECTION*/
 
-.row{
+.carousel__mbt__col, .row{
 	margin: 0;
 	padding: 0;
 	z-index: 1;
