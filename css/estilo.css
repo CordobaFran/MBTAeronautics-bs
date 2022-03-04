@@ -1,3 +1,5 @@
+/*NAV SECTION*/
+
 .container-fluid{
 	padding-right: 0; 
 	padding-left: 0;
@@ -14,21 +16,17 @@
 	margin: 10px;
 }
 
-.header__user__div{
-	order: 4;
-}
-
 nav{
 	background-image: linear-gradient(0deg, #3e618c, #273d57);
 	box-shadow: 0px 5px 10px #00000082;
 	z-index: 2;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:hover {
     color: white;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link.active{
     color: white;
 }
 
@@ -39,29 +37,19 @@ nav{
     font-weight: bold;
 }
 
-.dropdown-menu{
-	background-color: #3e618c;
-}
-
-.dropdown-item{
-	color: #fff;
-}
-
-.navbar-light .navbar-nav .show>.nav-link {
+.dropdown-item, .navbar-light .navbar-nav .show>.nav-link {
     color: #fff;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.dropdown-menu, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     background-color: #3e618c;
 }
 
-.navbar-light .navbar-nav .nav-link.active{
-    color: white;
-}
 
-/*Carrousel*/
 
-.carousel__mbt, .carousel__mbt__col, .row{
+/*INDEX CAROUSEL SECTION*/
+
+.row{
 	margin: 0;
 	padding: 0;
 	z-index: 1;
@@ -73,11 +61,8 @@ nav{
 	object-position: center;
 }
 
-.carousel-indicators{
-	height: auto;
-	width: auto;
-}
 
+/*INDEX FLOTA SECTION*/
 .flota__img{
 	width: 300px;
 	height: 200px;
@@ -90,17 +75,17 @@ nav{
 
 /*SECTION LINE*/
 
-hr.section__line{
+hr.section__line, hr.footer__line{
 	background-color: #3e618c;
 	height: 3px;
 	width: 100%;
 }
 
 hr.footer__line{
-	background-color: #3e618c;
-	height: 2px;
-	width: 100%;
+	height: 0;
 }
+
+/*FONT*/
 
 .article__title{
 	text-shadow: 5px 5px 5px #aaa;
@@ -122,13 +107,13 @@ p.copyright{
 	object-fit: cover;
 }
 
-.servicios__contact__msj{
-	height: 200px;
-}
+/*SERVICIOS PAGE*/
 
 .detalle__tarifa{
 	height: 200px;
 }
+
+/*GALLERY PAGE*/
 
 .img__galery img{
 	height: 300px;
