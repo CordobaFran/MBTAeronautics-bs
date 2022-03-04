@@ -82,7 +82,7 @@ hr.section__line, hr.footer__line{
 }
 
 hr.footer__line{
-	height: 0;
+	height: 0px;
 }
 
 /*FONT*/
